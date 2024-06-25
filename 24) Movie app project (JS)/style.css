@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    background-color:  #1b1b1b;
+}
+
+.navbar{
+    width: 990px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.logo{
+    height: 60px;
+}
+
+.search{
+    background-color: rgba(113, 113, 113, 0.382);
+    padding: 14px;
+    border-radius: 12px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.search:focus{
+    outline: none;
+    border: none;
+    background-color: rgba(138, 138, 138, 0.329);
+}
+
+
+.search-btn{
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    margin-left: -28px;
+}
+
+
+.search-flex{
+     display: flex;
+     align-items: center;
+
+}
+
+.icon{
+    font-size: 60px;
+
+}
+
+#notFound{
+    text-align: center;
+    margin-top: 160px;
+    color: white;
+}
+
+.nf-title{
+   margin-top: 0px;
+
+
+}
+
+.d-none{
+    display: none;
+}
+
+.movieContainer{
+    width: 800px;
+    margin: 100px auto;
+    color: rgba(255, 255, 255, 0.794);
+    display: flex;
+}
+
+.title{
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+.poster{
+     border-radius: 12px;
+}
